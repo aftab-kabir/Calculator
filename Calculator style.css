@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align:center;
+  font-family:'Times New Roman';
+}
+.full-clc{
+  margin: 0px auto;
+  width: 350px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow:5px 4px 8px 7px rgb(172,199,222);
+  transition: 0.3s;
+  font-size: 0;
+  
+}
+.full-clc:hover{
+  box-shadow:10px 16px 32px 10px rgb(172,199,222);
+}
+.clc-head #result{
+  height:100px ;
+  width: 335px;
+  font-size: 32px;
+  text-align: right;
+  font-weight:bold;
+  padding: 0 5px;
+  letter-spacing: 1px;
+}
+.btn{
+  height:75px;
+  width: 87px;
+  font-weight:bold;
+  font-size: 20px;
+  background-color: rgb(25,109,182);
+  color: white;
+  
+}
+.extra-btn-style {
+  background-color: #1f2326;
+}
+.btn:hover{
+  background-color:rgba(165,107,228,0.72);
+  cursor:pointer;
+}
+hr{
+  border: 2px black solid;
+  border-bottom:none;
+}
